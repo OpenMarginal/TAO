@@ -1,0 +1,134 @@
+body {
+    background-color: #fff;
+}
+
+.logo_con>h1 {
+    font-size: 2em;
+    margin: .67em 0;
+    display: inline-block;
+    width: 106px;
+    height: 43px;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+
+.logo_con>h2 {
+    display: inline-block;
+    height: 43px;
+    line-height: 43px;
+    margin-left: 10px;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.logo_con>h1>i {
+    display: block;
+    color: #ff4001;
+    font-size: 46px;
+
+}
+
+#main {
+    position: relative;
+    width: 380px;
+    margin: 120px auto 30px;
+    height: 260px;
+}
+
+#main>div {
+    width: 380px;
+    height: 36px;
+}
+
+#main>div span {
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    color: #111;
+    font-size: 14px;
+    float: left;
+    overflow: hidden;
+}
+
+#main>div>div {
+    width: 307px;
+    height: 34px;
+    min-height: 34px;
+    line-height: 34px;
+    border: 1px solid #d6d6d6;
+    margin-left: 15px;
+    float: left;
+}
+
+#main>div>div>div:nth-of-type(1) {
+    width: 114px;
+    color: #000;
+    text-align: left;
+    height: 34px;
+    font-size: 14px;
+    padding-left: 4px;
+    float: left;
+}
+
+#main>div>div>div:nth-of-type(1) i {
+    background: url(https://gw.alicdn.com/tfs/TB1VHh7veL2gK0jSZFmXXc7iXXa-10-7.png);
+    width: 10px;
+    height: 7px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+#main>div>div>input {
+    float: left;
+    width: 300px;
+    height: 30px;
+    border: 0;
+    padding: 2px 0;
+    padding-left: 6px;
+    border-left: 1px solid #d6d6d6;
+}
+
+#main>button {
+    border-radius: 3px;
+    width: 309px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 72px;
+    opacity: .5;
+    color: #fff;
+    background-image: linear-gradient(90deg, #f90, #ff5000);
+    border: none;
+    cursor: pointer;
+}
+
+#main p {
+    color: #999;
+    font-size: 13px;
+    margin-top: 15px;
+    line-height: 20px;
+    width: 309px;
+    margin-left: 72px;
+}
+
+#main>p>a {
+    color: #ff5000;
+}
+
+#main>a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 13px;
+    color: #ff5000;
+}
+
+.TZ {
+    width: 114px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    margin: 22px 0 0 80px;
+}

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/ggdm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tb.css"/>
+		<link rel="stylesheet" href="./css/register2.css">
+		<link rel="stylesheet" href="./icon/iconfont.css">
+		<script src="./jquery/jquery.min.js"></script>
+		<script src="./jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+		<script src="./jquery-validation-1.14.0/dist/localization/messages_zh.min.js"></script>
+		<script src="./js/tool.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="subnav">
+				<ul>
+					<li><select>
+						<option value ="">中国大陆</option>
+					</select></li>
+					<li><a href="./login.html" id="A">亲, 请登录</a></li>
+					<li><a href="./register.html">免费注册</a></li>
+					<li><a href="#">手机逛淘宝</a></li>
+				</ul>
+				<ol>
+					<li><a href="./list.html"><select>
+						<option value ="">我的商品</option>
+					</select></a></li>
+					<li><a href="./car.html" id="T"><em class="iconfont" style="color:orange;margin-right: -24px;">&#xe603;</em>
+						<select>
+							<option value ="">购物车</option>
+					</select></a> </li>
+					<li><select>
+						<option value ="">收藏夹</option>
+					</select></li>
+					<li><select>
+						<option value ="">商品分类</option>
+					</select></li>
+					<li><select>
+						<option value ="">免费开店</option>
+					</select></li>
+					<li><select>
+						<option value ="">千牛卖家中心</option>
+					</select></li>
+					<li><select>
+						<option value ="">联系客服</option>
+					</select></li>
+					<li>
+						<select>
+						<option value ="">网站导航</option>
+					</select></li>
+				</ol>
+			</div>
+		</header>
+		<div id="logo">
+			<div class="logo_con">
+				<a href="./TB.html" class="TZ"></a>
+				<h1 id="H1"><i class="iconfont" >&#xe6bb;</i></h1>
+				<h2>企业注册</h2>
+			</div>
+		</div>
+		<form id="main" ">
+			<div>
+				<span style="padding-left: 14px;">会员名</span>
+				<div>
+					<span class="error" id="span" style="position: absolute;display: none;margin-top: -20px;color: red;font-size: 12px;"></span>
+					<input name="username" type="text" id="username" placeholder="请设置会员号">
+				</div>
+			</div>
+			<div>
+				<span style="padding-left: 28px;">邮箱</span>
+				<div>
+					<span class="error" id="span1" style="position: absolute;display: none;margin-top: -20px;color: red;font-size: 12px;"></span>
+					<input name="email" id="email" type="text" placeholder="请设置邮箱绑定">
+				</div>
+			</div>
+			<div style="margin-top: 20px;">
+				<span>手机号码</span>
+				<div>
+					<div>中国大陆&nbsp; +86 <i></i></div>
+					<input name="IPHoH" id="IP" type="text" style="width: 182px;" placeholder="请输入你的手机号码">
+				</div>
+			</div>
+			<div>
+				<span>登录密码</span> 
+				<div>
+					<span class="error" id="span" style="position: absolute;display: none;margin-top: -20px;color: red;font-size: 12px;"></span>
+					<input id="password" name="password" type="password" placeholder="请设置登录密码">
+				</div>
+			</div>
+			
+			<div>
+				<span style="padding-left: 28px;">验证</span>
+				<div id="TZFQ" style="position: relative;background: #e8e8e8;">
+					<span class="error" id="spanN" style="position: absolute;display: none;margin-top: -20px;color: red;font-size: 12px; margin-top: 36px;">请通过验证</span>
+					
+					<span id="TZ">
+						>>
+					</span>
+					<p id="P1">请按住滑块，拖动到最右边</p>
+					<i id="I"></i>
+				</div>
+			</div>
+
+			
+			<p>已阅读并同意以下协议<a href="">淘宝平台服务协议</a>、<a href="">隐私权政策</a>、<a href="">法律声明</a>、<a href="">支付宝及客户端服务协议</a> 
+			</p>
+			<input type="checkbox" name="" id="" style="margin:10px 0 0 72px;"><label style="color:rgb(51, 51, 51);font-size: 12px; margin-left: 10px;" for="">同步创建支付宝账户</label> 
+			<button id="BTN" class="btn">同意并注册</button>
+		</form>
+		<div id="footer" style="text-align: center;">
+			<div class="footer_con" style="height: 136px;">
+				<p class="p1" style="line-height: 55px;">
+					<a href="#">阿里巴巴集团</a> | <a href="#">淘宝网</a> | <a href="">天猫</a> | <a href="#">聚划算</a> | <a href="#">全球速卖通</a> | <a href="#">阿里巴巴国际交易市场</a> | <a href="">1688</a> | <a href="">阿里妈妈</a> | <a href="">飞猪</a> | <a href="">淘小铺</a> | <a href="">阿里云计算</a> | <a href="">AliOS</a> | <a href="">阿里通信</a> | <a href="">一淘</a> | <a href="">万网</a> | <a href="">高德</a> | <a href="">UC</a> | <a href="">友盟</a> | <a href="">阿里安全</a> | <a href="">虾米</a> | <a href="">大麦网</a> | <a href="">钉钉</a> | <a href="">支付宝</a> | <a href="">优酷</a>
+				</p>
+				<p class="p2"><a href="">关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图隐私权政策法律声明知识产权</a> | <a href="">© 2003-现在 Taobao.com 版权所有</a>
+</p>
+				<p><a href="">增值电信业务经营许可证</a>：<a href="">浙B2-20080224 | 增值电信业务经营许可证（跨地区）</a>： <a href="">B2-20150210</a> | <a href="">浙网文（2019）1033-086号</a> | <a href="">浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</a>
+</p>
+			</div>
+		</div>
+	</body>
+</html>
+<script>
+// (function(window){
+	$('input').attr('autocomplete',"off")
+	if (getCookie("name")) {
+        $('#A').html('登陆退出').attr('href','#')
+    }
+	$('#A').click(function(){
+		if (getCookie("name")) {
+			var Yes = confirm('亲！！！是否退出该账号')
+			if(Yes){
+				$('#A').html('登陆').attr('href','./login.html')
+				window.localStorage.clear()
+				delCookie('name')
+			}
+			
+		}
+	})
+	$$('username').oninput=function () {
+		$('#span').css('display','none')
+    if (!(this.value)) {
+      return ''
+    } else {
+		
+	$.get('./register.php', { name: this.value }, 
+		function (res) {         
+			if (res == "1") {
+            	$('#span').html("用户名已存在") 
+            $('#span').css('display','inline')
+          } }, 'json')
+    }
+  }
+  $$('email').oninput=function(){
+	$('#span1').css('display','none')
+    if (!(this.value)) {
+      return ''
+    } else {
+	$.get('./register.php', { email: this.value }, 
+		function (res) {         
+			if (res == "1") {
+            	$('#span1').html("邮箱已被注册") 
+				$('#span1').css('display','inline')
+			} 
+		}, 'json')
+    }
+  }
+	jQuery('form').validate({
+		rules:{
+			username:{
+				required:true
+			},
+			email:{
+				required: true,
+        		email: true
+			},
+			IPHoH:{
+				required: true,
+				number:true,
+				rangelength:[11,11]
+			},
+			password:{
+				required: true,
+        		rangelength: [5, 10],
+			}
+		},
+		messages:{
+			username: '用户名不能为空',
+			email: {
+        		required: '邮箱不能为空',
+        		email: '邮箱格式不正确'
+      		},
+			IPHoH: {
+        		required: '手机不能为空',
+				number:'必须为数字',
+        		rangelength: "手机长度须为11位"
+      		},
+			password: {
+        		required: '密码不能为空',
+        		rangelength: "密码须5-10位"
+      		},
+		},
+		submitHandler:function(form){
+			if($('#P1').html() !=='验证通过'){
+				$('#spanN').css('display','block')
+				return
+			}else{
+					$('#spanN').css('display','none')
+				$.ajax({
+					url: './register.php',
+					data: {
+						name: $$('username').value,
+						email: $$('email').value,
+						password:$$('password').value,
+					},
+					success (res) {
+						console.log($('#span').css('display'));
+						if($('#span').css('display')=='block'){
+							console.log(1);
+							alert("很可惜，注册失败!")
+							return false
+						}else if($('#span1').css('display')=='block'){
+							console.log(2);
+							alert("很可惜，注册失败!")
+							return false
+						}else if (res === '1') {
+							console.log(3);
+						alert("恭喜注册成功！！");
+						window.location.href = './login.html';
+						} else {
+							console.log(4);
+						alert("很可惜，注册失败!")
+						}
+					},
+				})
+			}	
+		}
+	})
+	
+	
+
+  var FQ = document.querySelector('#TZFQ')
+  var Box = document.querySelector('#TZ')
+    Box.onmousedown = function (e) {		
+        e = e || window.event
+        var X = e.clientX - Box.offsetLeft
+        var Y = e.clientY - Box.offsetTop
+        document.onmousemove = function (e) {
+            var offsetX = e.clientX - X
+            var offsetY = e.clientY - Y
+            if (offsetX < 0) {
+                offsetX = 0
+            }
+            if (offsetY < 0) {
+                offsetY = 0
+            }
+            var maxW = FQ.offsetWidth
+            var maxH = FQ.offsetHeight
+            var BoxW = Box.offsetWidth
+            var BoxH = Box.offsetHeight
+            if (maxW - BoxW < offsetX) {
+                offsetX = maxW - BoxW
+            }
+            if (maxH - BoxH < offsetY) {
+                offsetY = maxH - BoxH
+            }
+            Box.style.left = offsetX + 'px'
+            Box.style.top = offsetY + 'px'
+			$('#I').css('width',Box.style.left)
+        }
+        document.onmouseup = function () {
+            document.onmousemove = null
+			if($('#TZ').position().left<273){
+				$('#TZ').animate({
+					left: 0,
+				}, 500, 'linear')
+				$('#I').animate({
+					width: 0,
+				}, 500, 'linear')
+			}else{
+				Box.onmousedown = null
+				$('#spanN').css('display','none')
+				$('#TZ').css('color','#76c61d').html('ok')
+				$('#P1').css('color','#fff').html('验证通过')
+			}
+        }
+    }
+	if (getCookie("name")) {
+	$('#A').html('登陆成功').attr('href','#')
+}
+	// })(window)
+	$('#T').click(function(){
+	if (!getCookie("name")) {
+		alert('亲！！！请先登录')
+		$(this).attr('href','./login.html')
+	}
+  })
+</script>

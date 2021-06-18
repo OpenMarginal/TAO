@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/ggdm.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tb.css"/>
+		<link rel="stylesheet" href="./css/list.css">
+		<link rel="stylesheet" href="./icon/iconfont.css">
+		<script src="./jquery/jquery.min.js"></script>
+		<script src="./js/tool.js"></script>
+		<script src="./js/template-web.js"></script>
+		<script src="./js/pagination.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="subnav">
+				<ul>
+					<li><select>
+						<option value ="">中国大陆</option>
+					</select></li>
+					<li><a href="./login.html" id="A">亲, 请登录</a></li>
+					<li><a href="./register.html">免费注册</a></li>
+					<li><a href="#">手机逛淘宝</a></li>
+				</ul>
+				<ol>
+					<li><a href="./list.html"><select>
+						<option value ="">我的商品</option>
+					</select></a></li>
+					<li><a href="./car.html" id="TZ"><em class="iconfont" style="color:orange;margin-right: -24px;">&#xe603;</em>
+						<select>
+							<option value ="">购物车</option>
+					</select></a> </li>
+					<li><select>
+						<option value ="">收藏夹</option>
+					</select></li>
+					<li><select>
+						<option value ="">商品分类</option>
+					</select></li>
+					<li><select>
+						<option value ="">免费开店</option>
+					</select></li>
+					<li><select>
+						<option value ="">千牛卖家中心</option>
+					</select></li>
+					<li><select>
+						<option value ="">联系客服</option>
+					</select></li>
+					<li>
+						<select>
+						<option value ="">网站导航</option>
+					</select></li>
+				</ol>
+			</div>
+		</header>
+		<div id="logo">
+			<div class="logo_con">
+				<h1><a href="./TB.html"><img src="./img/images/tb_14.jpg" ></a><i style="position: absolute;top: 40px;left: 146px;font-size: 30px;">商品列表页</i></h1>
+				<div class="logo_main"  style="margin: 45px 0 0 370px;">
+					<form action="" method="">
+						<input type="text" name="" id="inp" value="" placeholder="口红显白显气色" />
+						<ul id="UL"></ul>
+						<a href="#"><img src="img/images/tb_20.jpg" style="position: absolute;right: 85px;top: 10px;"></a>
+						<input type="submit" name="" id="" value="搜索" />
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="filter container">
+			<div class="cate clearfix">
+			  <span>商品分类:</span>
+			  <ul id="ul1">
+
+			  </ul>
+			</div>
+			<div class="cate clearfix">
+				<span>商品类型:</span>
+				<ul id="ul2">
+
+				</ul>
+			  </div>
+			  <div class="cate clearfix">
+				<span>风&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格:</span>
+				<ul id="ul3">
+
+				</ul>
+			  </div>
+
+			<div class="sort clearfix">
+			  <span>排&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;序:</span>
+			  <ul>
+				<li data-sorttype="1" data-sort="ASC" class="active">综  合</li>
+				<li data-sorttype="2" data-sort="ASC">价  格</li>
+				<li data-sorttype="3" data-sort="ASC">销  量</li>
+			  </ul>
+			</div>
+		  </div>
+		
+		  
+		
+		  <div class="goods container">
+
+			<ul class="clearfix"></ul>
+		  </div>		
+		  <div class="pagi container">
+		</div>
+		<div id="footer">
+			<div class="footer_con">
+				<p class="p1">
+					<a href="#">阿里巴巴集团</a> | <a href="#">淘宝网</a> | <a href="">天猫</a> | <a href="#">聚划算</a> | <a href="#">全球速卖通</a> | <a href="#">阿里巴巴国际交易市场</a> | <a href="">1688</a> | <a href="">阿里妈妈</a> | <a href="">飞猪</a> | <a href="">淘小铺</a> | <a href="">阿里云计算</a> | <a href="">AliOS</a> | <a href="">阿里通信</a> | <a href="">一淘</a> | <a href="">万网</a> | <a href="">高德</a> | <a href="">UC</a> | <a href="">友盟</a> | <a href="">阿里安全</a> | <a href="">虾米</a> | <a href="">大麦网</a> | <a href="">钉钉</a> | <a href="">支付宝</a> | <a href="">优酷</a> | <a href="">土豆</a> | <a href="">阿里健康</a> | <a href="">阿里影业</a> | <a href="">阿里体育</a> | <a href="">网商银行</a>
+				</p>
+				<p class="p2"><a href="">关于淘宝合作伙伴营销中心廉正举报联系客服开放平台诚征英才联系我们网站地图隐私权政策法律声明知识产权</a> | <a href="">© 2003-现在 Taobao.com 版权所有</a>
+</p>
+				<p><a href="">增值电信业务经营许可证</a>：<a href="">浙B2-20080224 | 增值电信业务经营许可证（跨地区）</a>： <a href="">B2-20150210</a> | <a href="">浙网文（2019）1033-086号</a> | <a href="">浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</a>
+</p>
+				<p>互联网药品信息服务资格证书（浙）-经营性-2018-0010|短消息类服务接入代码使用证书：号【2016】00154-A01|信息网络传播视听许可证：1109364号|出版物网络交易平台服务经营备案号：新出发浙备字第002号
+</p>
+				<p><img src="img/tb/images/images/logo_03.jpg" style="vertical-align: middle;margin: 0 8px;" >浙公网安备 33010002000078号 |浙B2-20080224-1|广播电视节目制作经营许可证（浙）字第01012号|市场名称登记证：工商网市字3301004120号|医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</p>
+				<img src="img/tb/images/images/logo_12.jpg" >
+				<img src="img/tb/images/images/logo_07.jpg" >
+				<img src="img/tb/images/images/logo_18.jpg" >
+				<img src="img/tb/images/images/logo_31.jpg" >
+				<img src="img/tb/images/images/logo_20.jpg" >
+				<img src="img/tb/images/images/logo_15.jpg" >
+				<img src="img/tb/images/images/logo_28.jpg" >
+				<img src="./img/tb/images/images/logo_23.jpg" >
+				<img src="img/tb/images/images/logo_25.jpg" >
+				<img src="img/tb/images/images/logo_09.jpg" ><br>
+				<img src="img/tb/images/images/logo_44.jpg" >
+				<img src="img/tb/images/images/logo_47.jpg" >
+			</div>
+		</div>
+	</body>
+</html>
+<script src="./js/list.js"></script>
+<script type="text/html" id="goodsTmp">
+    {{ each list v }}
+    <li>
+      <a href="./detail.html?goodsId={{ v.goods_id }}">
+        <div class="img">
+          <img src="{{ v.goods_big_logo }}" alt="">
+        </div>
+        <div class="price">
+          <span>￥ {{ v.goods_price }}</span>
+        </div>
+        <div class="desc">
+          {{ v.goods_name }}
+        </div>
+        <div class="number">
+          销量: {{ v.goods_number }}
+        </div>
+      </a>
+    </li>
+    {{ /each }}
+  </script>
+<script>
+	if (getCookie("name")) {
+        $('#A').html('登陆退出').attr('href','#')
+    }
+	$('#A').click(function(){
+		if (getCookie("name")) {
+			var Yes = confirm('亲！！！是否退出该账号')
+			if(Yes){
+				$('#A').html('登陆').attr('href','./login.html')
+				window.localStorage.clear()
+				delCookie('name')
+			}
+			
+		}
+	})
+	if (getCookie("name")) {
+        $('#A').html('登陆成功').attr('href','#')
+		$('#H2').html('用户名:'+getCookie("name"))
+		$('#in1').val('资产').parent().attr('href','#')
+		$('#in2').val('设置').parent().attr('href','#')
+    }
+    
+	
+  var inp = document.querySelector('#inp')
+  var ul = document.querySelector('#UL')
+  inp.addEventListener('input', function () {
+    var key = inp.value
+    var script = document.createElement('script')
+    script.className = 'jsonp'
+    var scriptAll = document.querySelectorAll('script')
+    scriptAll.forEach(item => {
+      if (item.className === 'jsonp') {
+        script = item
+      }
+    })
+	$('#banner').css('z-index',-1)
+	script.src=`https://suggest.taobao.com/sug?code=utf-8&q=${key}&_ksTS=1623202474577_230&callback=fn&k=1&area=c2c&bucketid=8`
+    window.fn = function (res) {
+      var str = ''
+      if (res.result) {
+        res.result.forEach(item => {
+          str += `<li>${item[0]}</li>`
+        })
+        ul.innerHTML = str
+        ul.style.display = 'block'
+		$('#UL>li').click(function(){
+		  $(this).parent().prev().val($(this).html()).next().css('display','none').parents().find('#banner').css('z-index',1)
+	    })
+      } else {
+        ul.style.display = 'none'
+      }
+      document.body.removeChild(script)
+    }
+    document.body.appendChild(script)
+	
+  })
+  inp.addEventListener('blue', function () {
+
+})
+$('#TZ').click(function(){
+	if (!getCookie("name")) {
+		alert('亲！！！请先登录')
+		$(this).attr('href','./login.html')
+	}
+  })
+</script>

@@ -1,0 +1,51 @@
+{
+  "id": "2604285",
+  "name": "taobao",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9948094",
+      "name": "购物车",
+      "font_class": "gouwuche2",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "12304095",
+      "name": "淘宝网 (1)",
+      "font_class": "taobaowang",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "7372587",
+      "name": "微博",
+      "font_class": "weibo-copy",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15993994",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "14959582",
+      "name": "半角二维码",
+      "font_class": "erweima",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "16672389",
+      "name": "消 息",
+      "font_class": "module-message",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

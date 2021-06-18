@@ -1,0 +1,83 @@
+.goodsInfo {
+    margin: 20px auto;
+    padding: 30px;
+    width: calc(1200px - 60px);
+    height: 400px;
+}
+
+.goodsInfo>.left {
+    float: left;
+    width: 450px;
+    height: 100%;
+    border: 1px solid #333;
+}
+
+.goodsInfo>.left>.img {
+    width: 450px;
+    height: 450px;
+    border-bottom: 1px solid #333;
+    position: relative;
+}
+
+.goodsInfo>.left>.img>img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.goodsInfo>.right {
+    float: right;
+    width: 650px;
+    height: 100%;
+}
+
+
+.goodsInfo>.right>p {
+    font-size: 30px;
+    margin-bottom: 135px;
+}
+
+.goodsInfo>.right button {
+    width: calc(50% - 20px);
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+
+.info {
+    padding: 20px;
+    width: calc(1200px - 42px);
+    margin: 0 auto;
+}
+
+#max {
+    width: 225px;
+    height: 225px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 0, 0.4);
+    display: none;
+}
+
+.list {
+    position: relative;
+}
+
+#bigBox {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: -450px;
+    left: 460px;
+    overflow: hidden;
+    display: none;
+}
+
+#bigBox>img {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+}

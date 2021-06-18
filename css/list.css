@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a,
+a:hover,
+a:target,
+a:link {
+    text-decoration: none;
+    color: #333;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.filter {
+    border: 2px solid #333;
+    padding: 20px;
+    width: calc(1200px - 44px);
+    margin: 20px auto;
+}
+
+.filter>.cate,
+.filter>.sort,
+.filter>.promote {
+    width: 100%;
+}
+
+.filter>.cate>span,
+.filter>.sort>span,
+.filter>.promote>span {
+    float: left;
+    width: 120px;
+    padding-top: 6px;
+}
+
+.filter>.cate>ul,
+.filter>.sort>ul,
+.filter>.promote>ul {
+    float: left;
+    width: calc(100% - 120px);
+}
+
+.filter>.cate>ul>li,
+.filter>.sort>ul>li,
+.filter>.promote>ul>li {
+    width: 60px;
+    float: left;
+    padding: 4px 7px;
+    margin: 5px 0;
+    font-size: 12px;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.filter>.promote>ul>li.active,
+.filter>.sort>ul>li.active,
+.filter>.cate>ul>li.active {
+    background-color: orange;
+    color: #fff;
+}
+
+
+.pagi {
+    height: 80px;
+    border: 2px solid #333;
+    width: calc(1200px - 4px);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.goods>ul>li {
+    width: 228px;
+    margin: 5px;
+    border: 1px solid #333;
+    height: 400px;
+    float: left;
+}
+
+.goods>ul>li>a>.img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.goods>ul>li>a>.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods>ul>li>a>.desc,
+.goods>ul>li>a>.number,
+.goods>ul>li>a>.price {
+    width: 200px;
+    margin: 20px auto;
+    font-size: 30px;
+
+}
+
+.goods>ul>li>a>.desc {
+    font-size: 18px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.pagination {
+    padding: 20px 395px 0 !important;
+}
